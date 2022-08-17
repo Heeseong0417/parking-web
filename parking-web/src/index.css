@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+.bg_cblue{
+  background-color: rgba(103,109,223,1);
+}
+.text-color-w{
+  color:rgba(255,255,255,0.8);
+
+}
+.text-color-clound-w{
+  color:rgba(255,255,255,0.6);
+}
+.text-color-clound-b{
+  color:rgba(0,0,0,0.6);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
